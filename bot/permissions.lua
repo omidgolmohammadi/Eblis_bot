@@ -43,6 +43,7 @@ local mods = {
 	"muteall",
 	"rmsg",
 	"rules",
+	"poker",
 	"pre_process",
 	"translate"
 }
