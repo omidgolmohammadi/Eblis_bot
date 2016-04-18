@@ -241,10 +241,12 @@ function create_config( )
     "links",
     "moderation",
     "plugins",
+    "rmsg",
     "rules",
     "settings",
     "spam",
     "version",
+    "translate",
     },
   enabled_lang = {
     "arabic_lang",
