@@ -41,8 +41,10 @@ local mods = {
 	"mod_commands",
 	"no_flood_ban",
 	"muteall",
+	"rmsg",
 	"rules",
-	"pre_process"
+	"pre_process",
+	"translate"
 }
 
 local function get_tag(plugin_tag)
