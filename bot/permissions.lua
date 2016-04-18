@@ -1,5 +1,6 @@
 local sudos = {
     "baba",
+    "auto-leave",
     "plugins",
     "rank_admin",
     "bot",
@@ -34,6 +35,8 @@ local mods = {
 	"admins",
  	"members",
  	"welcome",
+ 	"info",
+ 	"azan",
  	"mods",
 	"flood",
 	"commands",
