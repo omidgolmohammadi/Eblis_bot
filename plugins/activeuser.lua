@@ -285,7 +285,6 @@ if msg.to.type == 'channel' then
 channel_get_users('channel#id'..msg.to.id, getactivech, msg.to.id)
 elseif msg.to.type == 'chat' then
 chat_info('chat#id'..msg.to.id, getactivegr, msg.to.id)
-text = text..'\n\n#freeze_robot'
 end
 end
 return {
