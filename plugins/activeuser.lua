@@ -277,6 +277,7 @@ text = text..'\n\n 2⃣ '..maxname[2]..' 〖'..maxuser[2]..'〗\n\n📨تعدا�
 else
 text = text..'\n\n 2⃣ '..maxname[2]..' 〖'..maxuser[2]..'〗\n\n📨تعداد پیام های ارسالی: '..maxtex[2] + maxph[2] + maxst[2] + maxoth[2]..'\n\n👾استیکر: '..maxst[2]..'\n\n📷تصویر: '..maxph[2]..'\n\n📃 متن: '..maxtex[2]..'\n\n📦 سایر: '..maxoth[2]..'\n\n 3⃣ '..maxname[3]..' 〖'..maxuser[3]..'〗\n\n📨تعداد پیام های ارسالی: '..maxtex[3] + maxph[3] + maxst[3] + maxoth[3]..'\n\n👾استیکر: '..maxst[3]..'\n\n📷تصویر: '..maxph[3]..'\n\n📃 متن: '..maxtex[3]..'\n\n📦 سایر: '..maxoth[3]
 end
+ text = text..'\n\n#freeze_robot'
 end
 send_msg('channel#id'..cb_extra, text, ok_cb, true)
 end
