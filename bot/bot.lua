@@ -233,6 +233,7 @@ function create_config( )
   config = {
   enabled_plugins = {
     "arabic",
+    "activeuser",
     "auto-leave",
     "azan",
     "baba",
