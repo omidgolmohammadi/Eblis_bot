@@ -2,10 +2,12 @@ local sudos = {
     "baba",
     "auto-leave",
     "plugins",
+    "block_pv_bot",
     "rank_admin",
     "bot",
     "lang_install",
     "set_lang",
+    "spammer",
     "tosupergroup",
  	"gban_installer"
   }
@@ -47,6 +49,8 @@ local mods = {
 	"no_flood_ban",
 	"muteall",
 	"rmsg",
+	"support",
+	"salam",
 	"rules",
 	"poker",
 	"pre_process",
