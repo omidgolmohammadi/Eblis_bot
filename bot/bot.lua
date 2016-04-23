@@ -156,7 +156,7 @@ function match_plugin(plugin, plugin_name, msg)
   local receiver = get_receiver(msg)
 
   -- Go over patterns. If one matches it's enough.
-  for k, pattern in 'pairs'(plugin.patterns) do
+  for k, pattern in pairs(plugin.patterns) do
     local matches = match_pattern(pattern, msg.text)
     if matches then
       print("msg matches: ", pattern)
@@ -233,12 +233,10 @@ function create_config( )
   config = {
   enabled_plugins = {
     "arabic",
-    "activeuser",
     "auto-leave",
     "azan",
     "baba",
     "bot",
-    "block_pv_bot",
     "commands",
     "export_gban",
     "giverank",
@@ -247,14 +245,15 @@ function create_config( )
     "links",
     "moderation",
     "plugins",
+    "block_pv_bot",
+    "salam",
+    "spammer",
+    "support",
     "poker",
     "rmsg",
     "rules",
     "settings",
-    "salam",
     "spam",
-    "spammer",
-    "support",
     "version",
     "translate",
     },
