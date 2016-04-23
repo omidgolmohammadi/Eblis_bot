@@ -27,6 +27,7 @@ local mods = {
 	"whois",
 	"kick",
 	"add",
+	"activeuser",
 	"ban",
 	"unban",
 	"lockmember",
